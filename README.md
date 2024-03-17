@@ -19,8 +19,10 @@ project-root/
 ├── ppackage-lock.json
 └── playwright.config.ts
 └── README.md
-
 ```
+
+> **_NOTE:_**  You need to create a file .env within project root and add the credentials provides in the pdf part 2 .
+
 
 ## Requirements
 
@@ -40,5 +42,20 @@ git clone https://github.com/VirginiaSeijas/demoblaze-web.git
 ```bash
 npm install
 ```
+
+## Execute tests
+1. Execute this command to run the existent test
+
+```bash
+npm run test
+```
+
+2. Execute this command to see the report 
+
+```bash
+npm run test:report
+```
+
+
 
 

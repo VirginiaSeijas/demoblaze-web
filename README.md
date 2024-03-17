@@ -29,7 +29,6 @@ project-root/
 └── README.md
 ```
 
-> **_NOTE:_**  You need to create a file .env within project root and add the credentials provides in the pdf part 2 .
 ## Installation
 
 1. Clone this repository to your local machine:
@@ -41,6 +40,8 @@ git clone https://github.com/VirginiaSeijas/demoblaze-web.git
 ```bash
 npm install
 ```
+
+> **_NOTE:_**  You need to create a file .env within project root and add the credentials provides in the pdf part 2 .
 
 ## Execute tests
 1. Execute this command to run the existent test

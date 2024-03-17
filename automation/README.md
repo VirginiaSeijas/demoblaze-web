@@ -6,7 +6,7 @@ This project utilizes Playwright for automated testing in web browsers. Follow t
 
 Before getting started, make sure you have the following installed on your system:
 
-- Node.js (version 14 or higher)
+- Node.js (version 18 or higher)
 - npm (Node.js package manager)
 
 

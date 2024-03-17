@@ -68,7 +68,7 @@ test('Purchase a product successfully', async ({page}) => {
     // Use the locator method to select the element and get its text content
     const locator = await page.$('p.lead.text-muted');
     if (locator === null) {
-        throw new Error('El locator no pudo encontrarse en la página');
+        throw new Error('The locator could not be found on the page');
       }
     const text = await locator.innerText();
      // Extract information using regular expressions

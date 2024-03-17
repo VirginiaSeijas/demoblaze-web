@@ -12,10 +12,13 @@ project-root/
 │   └── .*po.ts
 ├── reports/
 │   └── allure-results/
-│
+├── tests/
+│   └── .*spec.ts
 ├── tsconfig.json
 ├── package.json
+├── ppackage-lock.json
 └── playwright.config.ts
+└── README.md
 
 ```
 
@@ -31,9 +34,11 @@ Before getting started, make sure you have the following installed on your syste
 1. Clone this repository to your local machine:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/VirginiaSeijas/demoblaze-web.git
 ```
 2. Install the dependencies 
 ```bash
 npm install
 ```
+
+

@@ -17,8 +17,8 @@
 .env
 
 # reports
-allure-report
-/reports/*
+*allure-report
+automation/reports/*
 !/reports/.gitkeep
-test-results
+*test-results
 

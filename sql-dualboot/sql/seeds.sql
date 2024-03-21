@@ -20,7 +20,7 @@ INSERT INTO Customertbl (Id, Name, Region, Industry_Code) VALUES
 INSERT INTO Orderstbl (Id, Date, Customer_Id, Agent_Id, Amount) VALUES
 (123, '2015-08-12', 11, 1, 720),
 (456, '2015-05-12', 5, 5, 600),
-(987, '2015-11-19', 11, 5, 1125),
+(987, '2015-11-19', 3, 5, 1125),
 (321, '2015-05-05', 8, 7, 2654),
 (789, '2015-05-18', 3, 5, 963),
 (654, '2015-11-19', 11, 11, 789);
